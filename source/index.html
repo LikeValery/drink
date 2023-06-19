@@ -6,28 +6,26 @@
 <main class="main-container">
 	<h1 class="visually-hidden"> Магазин Дринк горпавбьлджэ ту го</h1>
 
-	<section class="slider">
-		<a class="slider_previos"></a>
-		<div class="slider_card">
-			<div class="slider_image"><img src="#" alt="Декаф Флэт Уайт"></div>
-			<span class="slider_budge">Новинка</span>
-			<div class="slider_items">
-				<h2 class="slider_header">Декаф Флэт Уайт</h2>
-				<p class="slider_desctiption">Свежесваренный кофе без кофеина из Эфиопии с натуральным фермерским молоком — то, что нужно для расслабления после тяжёлого рабочего дня</p>
-				<div class="slider_buy">
+	<section class="new">
+		<h2 class="visually-hidden">Наши новинки</h2>
+		<div class="new-wrapper slider">
+			<ul class="slider_list">
+				<li class="slider_item">
+					<h3 class="slider_header">Декаф Флэт Уайт</h3>
+					<p class="slider_desctiption">Свежесваренный кофе без кофеина из Эфиопии с натуральным фермерским молоком — то, что нужно для расслабления после тяжёлого рабочего дня</p>
+					<img class="slider_image" src="#" alt="Фото продукта" width="280" height="280">
 					<span class="slider_old-prise">295 &#8381;</span>
 					<span class="slider_prise">225 &#8381;</span>
-				</div>
-				<button class="slider_button">Заказать</button>
-			</div>
-
+					<button class="slider_button">Заказать</button>
+				</li>
+			</ul>
+			<button class="slider__prev" type="button"><h3 class="visually-hidden">Предыдущий отзыв</h3></button>
+			<button class="slider__next" type="button"><h3 class="visually-hidden">Следующий отзыв</h3></button>
 		</div>
-		<a class="slider_next"></a>
-
 	</section>
 
 	<div class="features">
-		<span class="features_budge">Преимущества</span>
+		<span class="features_budge budge">Преимущества</span>
 		<h2 class="features_header">Главные причины выбрать Drink2Go</h2>
 		<ul class="features_list">
 			<li class="features_item ">
@@ -58,6 +56,12 @@
 		</ul>
 	</div>
 
+	<section class="catalog">
+		<span class="catalog_budge budge">Каталог</span>
+		<h2 class="catalog_header">Каталог кофейных напитков</h2>
+
+
+	</section>
 
 </main>
 {% endblock %}
