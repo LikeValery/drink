@@ -3,10 +3,60 @@
 {% extends "./templates/_layout.twig" %}
 
 {% block main %}
-<main>
-	<hi>
+<main class="main-container">
+	<h1 class="visually-hidden"> Магазин Дринк горпавбьлджэ ту го</h1>
 
-	</hi>
+	<section class="slider">
+		<a class="slider_previos"></a>
+		<div class="slider_card">
+			<div class="slider_image"><img src="#" alt="Декаф Флэт Уайт"></div>
+			<span class="slider_budge">Новинка</span>
+			<div class="slider_items">
+				<h2 class="slider_header">Декаф Флэт Уайт</h2>
+				<p class="slider_desctiption">Свежесваренный кофе без кофеина из Эфиопии с натуральным фермерским молоком — то, что нужно для расслабления после тяжёлого рабочего дня</p>
+				<div class="slider_buy">
+					<span class="slider_old-prise">295 &#8381;</span>
+					<span class="slider_prise">225 &#8381;</span>
+				</div>
+				<button class="slider_button">Заказать</button>
+			</div>
+
+		</div>
+		<a class="slider_next"></a>
+
+	</section>
+
+	<div class="features">
+		<span class="features_budge">Преимущества</span>
+		<h2 class="features_header">Главные причины выбрать Drink2Go</h2>
+		<ul class="features_list">
+			<li class="features_item ">
+				<span class="features_img features_img--speeed"></span>
+				<h3 class="features_name">Скорость</h3>
+				<p class="features_description">Готовый напиток всегда под рукой — просто открой банку</p>
+			</li>
+
+			<li class="features_item ">
+				<span class="features_img features_img--fit"></span>
+				<h3 class="features_name">Удобство</h3>
+				<p class="features_description">егко помещается и в карман,
+					и в маленькую сумочку</p>
+			</li>
+
+			<li class="features_item ">
+				<span class="features_img features_img--energy"></span>
+				<h3 class="features_name">Бодрость</h3>
+				<p class="features_description">Сбалансированная доза кофеина даст мощный заряд энергии</p>
+			</li>
+
+			<li class="features_item ">
+				<span class="features_img features_img--eco"></span>
+				<h3 class="features_name">Экологичность</h3>
+				<p class="features_description">Вся упаковка сделана
+					из перерабатываемых материалов</p>
+			</li>
+		</ul>
+	</div>
 
 
 </main>
