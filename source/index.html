@@ -59,6 +59,51 @@
 	<section class="catalog">
 		<span class="catalog_budge budge">Каталог</span>
 		<h2 class="catalog_header">Каталог кофейных напитков</h2>
+		<form class="catalog_form form">
+			<fieldset class="form_prise prise">
+				<legend class="prise_title">Цена</legend>
+				<div class="prise_container range">
+					{# <input type="range" min="0" max="900" value="123" step="1"> #}
+					<div class="range_bar" style="left: 0; width: 226px">
+						<button type="button" class="range_toogle toogle toogle-min">
+							<span class="visually-hidden">Изменить минимальную цену</span>
+						</button>
+
+						<button type="button" class="range_oogle toogle toogle-max">
+							<span class="visually-hidden ">Изменить максимальную цену</span>
+						</button>
+
+					</div>
+				</div>
+
+				<input class="range-prise range-prise-from" placeholder="0" value="0" type="number">
+				<input class="range-prise range-prise-from" placeholder="0" value="123" type="number">
+
+			</fieldset>
+
+			<fieldset class="form_milk milk">
+				<legend class="milk_title">Наличие молока</legend>
+				<ul class="milk_list">
+					<li class="milk_item">
+						<lable class="milk_input input">
+							<input type="radio" name="milk-groop" value="nevermind" checked>Неважно
+						</lable>
+						<lable class="milk_input input">
+							<input type="radio" name="milk-groop" value="animal">Только животное
+						</lable>
+						<lable class="milk_input input">
+							<input type="radio" name="milk-groop" value="ground">Только растительное
+						</lable>
+						<lable class="milk_input input">
+							<input type="radio" name="milk-groop" value="without">Без молока
+						</lable>
+
+
+					</li>
+				</ul>
+
+			</fieldset>
+		</form>
 
 
 	</section>
